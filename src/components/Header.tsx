@@ -26,8 +26,12 @@ const Header = () => {
           </nav>
           
           <div className="flex items-center space-x-3">
-            <Button variant="outline" size="sm">Login</Button>
-            <Button size="sm">Get Started</Button>
+            <Button variant="outline" size="sm" onClick={() => window.location.href = '/login'}>
+              Login
+            </Button>
+            <Button size="sm" onClick={() => window.location.href = '/login'}>
+              Get Started
+            </Button>
           </div>
         </div>
       </div>

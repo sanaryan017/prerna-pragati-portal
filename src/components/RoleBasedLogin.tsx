@@ -61,7 +61,7 @@ const RoleBasedLogin = () => {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full mt-6" size="lg">
+                <Button className="w-full mt-6" size="lg" onClick={() => window.location.href = '/login'}>
                   Login as {role.title.slice(0, -1)}
                 </Button>
               </CardContent>

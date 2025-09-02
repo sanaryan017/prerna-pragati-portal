@@ -27,10 +27,10 @@ const HeroSection = () => {
             </div>
             
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="shadow-primary">
+              <Button size="lg" className="shadow-primary" onClick={() => window.location.href = '/login'}>
                 Register as Student
               </Button>
-              <Button variant="outline" size="lg">
+              <Button variant="outline" size="lg" onClick={() => window.location.href = '/login'}>
                 Company Registration
               </Button>
             </div>
